@@ -15,19 +15,6 @@ class TodoListViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        loadItems()
-//        let newItem = ItemData()
-//        newItem.title="买黑芝麻糊糊"
-//        itemArray.append(newItem)
-//
-//        let newItem2 = ItemData()
-//        newItem2.title="买黑芝麻糊糊"
-//        itemArray.append(newItem2)
-//
-//        let newItem3 = ItemData()
-//        newItem3.title="买黑芝麻糊糊"
-//        itemArray.append(newItem3)
-        
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell=tableView.dequeueReusableCell(withIdentifier: "ToDoItemCell", for: indexPath)
